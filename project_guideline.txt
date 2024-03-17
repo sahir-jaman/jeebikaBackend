@@ -1,0 +1,35 @@
+Project name: Jeebika
+
+Project Detail: Jeebika is an innovative online job placement platform designed to connect job seekers with potential employers. The platform aims to streamline the job search and recruitment process, offering a user-friendly experience for both job seekers and employers.
+
+*******Key Features******:
+
+*Job Search
+*Profile Creation
+*Application Process
+*Job Notifications
+*Employer Dashboard
+
+
+******URLs available*****: 
+
+1. local-server/admin
+
+2. local-server/auth/applicant/registration/
+3. local-server/auth/applicant/login/
+4. local-server/auth/applicant/profile/     ->(GET)
+5. local-server/auth/applicant/profile/     ->(PATCH)
+
+6. local-server/auth/employee/registration/
+7. local-server/auth/employee/login/
+8. local-server/auth/employee/profile/  ->(GET)
+9. local-server/auth/employee/profile/  ->(PATCH)
+10. local-server/auth/employee/posts/   ->(CREAT,GET)
+11. local-server/auth/employee/posts/<uuid:post_uid>/   ->(UPDATE,DELETE)
+
+JWT related:
+1. local-server/api/token/
+2. local-server/api/token/refresh/
+
+Admin related:
+1. local-server/auth/user/   -> In future Jeebika Owner can add employee user who will have minimum access. 

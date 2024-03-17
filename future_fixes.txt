@@ -1,0 +1,4 @@
+1. update gitignore file before uploding to github. 
+2. update passwords restrictions from serializers. [ min 8 char pass]
+3. You must add industry tipes categories. [ accountio.models.industry_type ]
+4. Every model fields are accepting null, black values. Fix those. 
